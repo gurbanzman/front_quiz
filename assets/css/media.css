@@ -1,0 +1,116 @@
+@media screen and (max-width:1440px) {
+
+   /* body{
+      overflow: hidden !important;
+   } */
+
+   .down{
+      display: none !important;
+   }
+
+   .container{
+      width: 80% !important;
+   }
+}
+
+@media screen and (max-width:768px){
+
+   .container{
+      margin: 50px auto !important;
+   }
+
+   body{
+      overflow-y: scroll !important;
+   }
+   
+   .up{
+      left: -73% !important;
+   }
+
+   .quiz__main{
+      flex-direction: column !important;
+      gap: 64px;
+   }
+
+   .quiz__main-start{
+      gap: 16px !important;
+   }
+}
+
+@media screen and (max-width:375px) {
+   
+   .container{
+      width: 90% !important;
+      margin: 30px auto !important;
+   }
+
+   .up{
+      top: -11rem !important;
+      left: -39rem !important;
+   }
+
+   .main__start-heading{
+      font-size: var(--heading-tab-l) !important;
+      line-height: var(--heading-tab-l) !important;
+   }
+
+   .quiz__main-exercise-logo{
+      width: 40px !important;
+      height: 40px !important;
+   }
+
+   .quiz__exercise--bg > p {
+      font-size: var(--heading-tab-s) !important;
+   }
+
+   .quiz__check{
+      width: 36px !important;
+      height: 24px !important;
+   }
+
+   .quiz__check-circle{
+      width: 12px !important;
+      height: 12px !important;
+      top: 6px !important;
+   }
+
+   .quiz__check-circle:checked{
+      left: 20px !important;
+   }
+
+   .quiz__light,
+   .quiz__dark{
+      width: 16px !important;
+      height: 16px !important;
+   }
+
+   .quiz__main-start p {
+      font-size: 14px !important;
+      line-height: 21px !important;
+   }
+
+   .quiz__exercise--start{
+      gap: 12px !important;
+   }
+
+   .main__start--sll{
+      font-size: 20px !important;
+   }
+
+   .quiz__main--exercise{
+      gap: 40px !important;
+   }
+
+   .quiz__main-exercise{
+      padding: 12px !important;
+      gap: 16px !important;
+   }
+
+   .quiz__main-exercise>span {
+      font-size: 18px !important;
+   }
+
+   .quiz__main-exercise-logo>span {
+      font-size: var(--heading-tab-s) !important;
+   }
+}

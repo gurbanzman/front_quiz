@@ -1,0 +1,32 @@
+:root{
+   /*
+      color styles
+   */
+
+   --dark-navy: #313E51;
+   --purple: #A729F5;
+   --navy: #3B4D66;
+   --gray-navy: #626C7F;
+   --light-bluish: #ABC1E1;
+   --light-gray: #F4F6FA;
+   --pure-white: #FFF;
+   --green: #26D782;
+   --red: #EE5454;
+   --quiz-bg: #EDF1F9;
+
+   /*
+      width styles
+   */
+
+   --heading-sm:20px;
+   --heading-s: 28px;
+   --heading-m: 36px;
+   --heading-l: 64px;
+   --heading-xl: 85px;
+
+   --heading-tab-l: 40px;
+   --heading-tab-s: 18px; 
+   
+   --quiz-main-italic: 30px;
+
+}
